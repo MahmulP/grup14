@@ -65,7 +65,7 @@ a:hover,
 a:focus,
 a:visited {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 ::-webkit-input-placeholder {
@@ -1582,7 +1582,7 @@ ul {
 # Navigations Three
 --------------------------------------------------------------*/
 .main-header-three {
-  background: transparent;
+  background: white;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -1660,7 +1660,7 @@ ul {
   bottom: -10px;
   left: -30px;
   content: "";
-  background-color: rgba(var(--wostin-white-rgb), 0.1);
+  background-color: black;
   width: 1px;
 }
 
@@ -1672,13 +1672,13 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: var(--wostin-white);
+  color: black;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
 .main-menu-three__search:hover {
-  color: var(--wostin-primary);
+  color: black;
 }
 
 .main-menu-three__call {
@@ -1705,7 +1705,7 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: var(--wostin-primary);
+  color: black;
   font-size: 26px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -1713,7 +1713,7 @@ ul {
 }
 
 .main-menu-three__call-icon:hover {
-  color: var(--wostin-base);
+  color: var(--wostin-bdr-color);
 }
 
 .main-menu-three__call-icon:before {
@@ -1731,7 +1731,7 @@ ul {
 }
 
 .main-menu-three__call-icon:hover:before {
-  background-color: var(--wostin-white);
+  background-color: var(--wostin-black);
 }
 
 .main-menu-three__call-number {
@@ -1746,17 +1746,17 @@ ul {
 .main-menu-three__call-number h5 {
   font-size: 16px;
   font-weight: 700;
-  font-family: var(--wostin-font);
+  font-family: black;
 }
 
 .main-menu-three__call-number a {
-  color: var(--wostin-white);
+  color: var(--wostin-black);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
 .main-menu-three__call-number a:hover {
-  color: var(--wostin-primary);
+  color: black;
 }
 
 .main-menu-three .main-menu__list > li + li,
@@ -1772,14 +1772,14 @@ ul {
 
 .main-menu-three .main-menu__list > li > a,
 .stricky-header.main-menu-three .main-menu__list > li > a {
-  color: #c8e8c3;
+  color: var(--wostin-black);
 }
 
 .main-menu-three .main-menu__list > li.current > a,
 .main-menu-three .main-menu__list > li:hover > a,
 .stricky-header.main-menu-three .main-menu__list > li.current > a,
 .stricky-header.main-menu-three .main-menu__list > li:hover > a {
-  color: var(--wostin-white);
+  color: black;
 }
 
 .main-menu-three .main-menu__list > li.current > a::before {
