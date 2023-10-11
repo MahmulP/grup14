@@ -2439,6 +2439,12 @@ ul {
   z-index: 3;
 }
 
+.feature-one-abt {
+  position: relative;
+  display: block;
+  z-index: 3;
+}
+
 .feature-one__inner {
   position: relative;
   display: block;
