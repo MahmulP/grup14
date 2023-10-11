@@ -3859,7 +3859,6 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  background-color: var(--wostin-black);
   background-blend-mode: color-burn;
   opacity: 0.25;
   z-index: 1;
