@@ -2441,7 +2441,7 @@ ul {
 
 .feature-one-abt {
   position: relative;
-  display: block;
+  display: none;
   z-index: 3;
 }
 
@@ -8100,8 +8100,15 @@ ul {
 .page-header {
   position: relative;
   display: block;
-  padding: 123px 0 120px;
-  z-index: 1;
+  padding: 300px 0 320px;
+  z-index: 2;
+}
+
+#header-about {
+  position: relative;
+  display: block;
+  padding: 300px 0 320px;
+  z-index: 2;
 }
 
 .page-header-bg {
