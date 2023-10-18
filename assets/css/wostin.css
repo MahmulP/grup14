@@ -2372,7 +2372,9 @@ ul {
 
 .main-slider-three .swiper-slide {
   position: relative;
-  background-color: var(--wostin-base);
+  /* background-color: var(--wostin-base); */
+  background: rgb(255,255,255) !important;
+  background: linear-gradient(357deg, rgba(255,255,255,1) 0%, rgba(220,255,219,1) 100%) !important;
 }
 
 .main-slider-three-bg {
