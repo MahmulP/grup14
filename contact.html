@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> OLSAM - Protect Our Environtment </title>
+    <title> Kontak Kami - OLSAM </title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
-    <link rel="manifest" href="assets/images/favicons/site.html" />
-    <meta name="description" content="Wostin HTML Template For Business" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/resources/logo-1.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/resources/logo-1.png" />
+    <link rel="manifest" href="assets/images/resources/logo-1.png" />
+    <meta name="description" content="OLSAM" />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -26,22 +26,10 @@
 
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
-    <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
     <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
-    <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
-    <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
     <link rel="stylesheet" href="assets/vendors/wostin-icons/style.css">
-    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.min.css" />
-    <link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css" />
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="assets/vendors/bxslider/jquery.bxslider.css" />
-    <link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
-
+    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
 
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/wostin.css" />
@@ -72,9 +60,15 @@
                             <li>
                                 <a href="process.html">Cara Kerja</a>
                             </li>
-                            <li>
-                                <a href="information.html">Informasi</a>
-                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Informasi
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="information.html">Bank Sampah</a></li>
+                                  <li><a class="dropdown-item" href="pemilihan_sampah.html">Pemilihan Sampah</a></li>
+                                </ul>
+                              </li>
                             <li>
                                 <a href="contact.html">Kontak Kami</a>
                             </li>
@@ -97,15 +91,21 @@
             </nav>
         </header>
 
-        <div class="stricky-header stricked-menu main-menu">
-            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
-        </div><!-- /.stricky-header -->
-
         <!--Page Header Start-->
-        <section id="header-about">
-            <h3 style="text-align: center;margin-top:150px; font-size: 45px; font-family: 'Courier New', Courier, monospace; font-weight: bold;">Ada Yang Bisa Kami Bantu?</h3>
+        <section class="page-header" style="margin-top:170px;">
+            <div class="page-header-bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg)">
+            </div>
+            <div class="container">
+                <div class="page-header__inner">
+                    <h2>Kontak Kami</h2>
+                    <ul class="thm-breadcrumb list-unstyled">
+                        <li><a href="index.html">Beranda</a></li>
+                        <li>Kontak Kami</li>
+                    </ul>
+                </div>
+            </div>
         </section>
-        <section class="header-about" style="background-image: linear-gradient(#8ad584ee, #ffffffc8);margin-top: 50px;">
+        <section class="header-about" style="background-image: linear-gradient(#8ad584ee, #ffffffc8);">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="welcome">
@@ -125,7 +125,7 @@
                         <!--Industries One Single-->
                         <div class="industries-one__single">
                             <div class="industries-one__img">
-                                <img src="Asset waste bank/images.jpeg" alt="">
+                                <img src="assets/waste-bankimages.jpeg" alt="">
                             </div>
                             <div class="industries-one__content">
                                 <div class="industries-one__icon">
@@ -143,7 +143,7 @@
                         <!--Industries One Single-->
                         <div class="industries-one__single">
                             <div class="industries-one__img">
-                                <img src="Asset waste bank/bank-sampah-png-616cc1e08bae9314b841cb22.png" alt="">
+                                <img src="assets/waste-bankbank-sampah-png-616cc1e08bae9314b841cb22.png" alt="">
                             </div>
                             <div class="industries-one__content">
                                 <div class="industries-one__icon">
@@ -161,7 +161,7 @@
                         <!--Industries One Single-->
                         <div class="industries-one__single">
                             <div class="industries-one__img">
-                                <img src="Asset waste bank/bank-sampah-dan-pegadaian_copy_800x500.jpg" alt="">
+                                <img src="assets/waste-bankbank-sampah-dan-pegadaian_copy_800x500.jpg" alt="">
                             </div>
                             <div class="industries-one__content">
                                 <div class="industries-one__icon">
@@ -178,7 +178,7 @@
                     
                 </div>
             </div>
-            <div class="faq-content">
+            <div class="faq-content" style="margin-bottom:30px;">
               <h4 class="faq-content-title" style="font-size: 45px; font-weight: bold;"> <center>Cari dibawah ini<br></h4></center>
               <h5 class="faq-content-title-styele" style=" margin: 25px; font-size: 25px; font-family: Arial, Helvetica, sans-serif;"><center>Pilih salah satu pertanyaan yang sudah kami sediakan.</h5>
                 <div class="row" style="display: flex; justify-content: center;
@@ -191,40 +191,37 @@
                                     <div class="accrodion-title">
                                         <h4>Cara kerja Point?</h4>
                                     </div>
-                                    <!-- <div class="accrodion-content">
+                                    <div class="accrodion-content">
                                         <div class="inner">
-                                            <p>There are many variations of passages the majority have suffered
-                                                alteration in some fo injected humour, or randomised words
-                                                believable. Phasellus a rhoncus erat. Vivamus vel eros vitae est
-                                                aliquet pellentesque vitae.</p>
-                                        </div>/.inner 
-                                    </div> -->
+                                            <p>Point akan terus didapatkan apabila kita selalu rajin menukarkan sampah kita melalui
+                                                website ini, dan juga dapat ditukarkan melalui menu <a href="point.html">poin</a>.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="accrodion">
                                     <div class="accrodion-title">
                                         <h4>Cara buat akun?</h4>
                                     </div>
-                                    <!-- <div class="accrodion-content">
+                                    <div class="accrodion-content">
                                         <div class="inner">
-                                            <p>There are many variations of passages the majority have suffered
-                                                alteration in some fo injected humour, or randomised words
-                                                believable. Phasellus a rhoncus erat. Vivamus vel eros vitae est
-                                                aliquet pellentesque vitae.</p>
+                                            <p>Untuk pembuatan akun dapat melalui menu registrasi yang telah tersedia
+                                                ataupun dapat melalui <a href="register.html">tombol berikut</a>.
+                                            </p>
                                         </div>
-                                    </div> -->
+                                    </div>
                                 </div>
                                 <div class="accrodion last-chiled">
                                     <div class="accrodion-title">
                                         <h4>Cara mencari komunitas?</h4>
                                     </div>
-                                    <!-- <div class="accrodion-content">
+                                    <div class="accrodion-content">
                                         <div class="inner">
-                                            <p>There are many variations of passages the majority have suffered
-                                                alteration in some fo injected humour, or randomised words
-                                                believable. Phasellus a rhoncus erat. Vivamus vel eros vitae est
-                                                aliquet pellentesque vitae.</p>
+                                            <p>Kamu dapat mencari komunitas peduli lingkungan di sekitar kamu, dan kamu dapat melakukan registrasi
+                                                anggota dari komunitas kamu ke website kami ini.
+                                            </p>
                                         </div>
-                                    </div> -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -308,30 +305,9 @@
 
     <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
-    <script src="assets/vendors/odometer/odometer.min.js"></script>
-    <script src="assets/vendors/swiper/swiper.min.js"></script>
-    <script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
-    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
     <script src="assets/vendors/wow/wow.js"></script>
     <script src="assets/vendors/isotope/isotope.js"></script>
-    <script src="assets/vendors/countdown/countdown.min.js"></script>
-    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
-    <script src="assets/vendors/bxslider/jquery.bxslider.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/vegas/vegas.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
     <script src="assets/vendors/timepicker/timePicker.js"></script>
-
-
-
-
     <!-- template js -->
     <script src="assets/js/wostin.js"></script>
 </body>

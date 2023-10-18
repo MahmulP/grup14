@@ -12,7 +12,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/resources/logo-1.png" />
     <link rel="manifest" href="assets/images/resources/logo-1.png" />
     <meta name="description" content="OLSAM" />
-
+    
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
 
@@ -36,6 +36,36 @@
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/wostin.css" />
     <link rel="stylesheet" href="assets/css/wostin-responsive.css" />
+    <style>
+        .image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50vh;
+        }
+        #skill {
+            background: #cfcfcf;
+            width: 100%;
+            padding: 100px 0;
+        }
+        .skill-bar{
+            font-size: small;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            color:#fff;
+        }
+        .skill-box {
+            text-align: right;
+            width: 100%;
+            background-color: white;
+        }
+        .poin{
+            width: 75%;
+            background-color: #77de5d;
+            font-size: 18px;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -62,15 +92,9 @@
                             <li>
                                 <a href="process.html">Cara Kerja</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Informasi
-                                </a>
-                                <ul class="dropdown-menu">
-                                  <li><a class="dropdown-item" href="information.html">Bank Sampah</a></li>
-                                  <li><a class="dropdown-item" href="pemilihan_sampah.html">Pemilihan Sampah</a></li>
-                                </ul>
-                              </li>
+                            <li>
+                                <a href="information.html">Informasi</a>
+                            </li>
                             <li>
                                 <a href="contact.html">Kontak Kami</a>
                             </li>
@@ -93,146 +117,43 @@
             </nav>
         </header>
 
-        <!--Main Slider Start-->
-        <section class="main-slider main-slider-three">
-            <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": false,
-                "effect": "fade",
-                "pagination": {
-                "el": "#main-slider-pagination",
-                "type": "bullets",
-                "clickable": true
-                },
-                "navigation": {
-                "nextEl": "#main-slider__swiper-button-next",
-                "prevEl": "#main-slider__swiper-button-prev"
-                },
-                "autoplay": {
-                "delay": 5000
-                }}'>
-                <div class="swiper-wrapper">
+        
+        <!--Why Choose One End-->
 
-                    <div class="swiper-slide">
-                        <div class="main-slider-three-bg"
-                            style="background-image: url(assets/images/backgrounds/main-slider-3-bg.jpg);">
-                        </div>
-                        <div class="main-slider-three-building">
-                            <img src="assets/images/resources/main-slider-three-building.png" alt="">
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-7">
-                                    <div class="main-slider__content">
-                                        <h5>Mari olah sampahmu bersama kami!</h5>
-                                        <h3>Bangun dunia yang bebas sampah bersama Olah Sampah</h3>
-                                        <p>Mulailah dengan gerakan kecil seperti mendaur ulangkan sampah untuk menjaga ekosistem dan lingkungan kita</p>
+          <!-- slider -->
+          <section class="services-one">
+            <div class="container">
+                     <h1 class="industy-details__title"><b>Kumpulkan untuk Mendaparkan Voucher!</b></h1>
+                         </div>
+                </section>
+                        <section class="header-about" style="background: linear-gradient(357deg, rgba(255,255,255,1) 0%, rgba(220,255,219,1) 100%); margin-top: 50px;">
+                            <div class="presentase" style="background-color:rgb(150, 150, 150);color: white; font-size:  2px ; background-color:  rgb(249, 249, 249); border-radius: 12px; padding: 10px; text-align: center;margin-left:250px;margin-right:250px;margin-top:15px;">
+                                <div class="skill">
+                                    <div class="box">
+                                        <div class="skill-bar">
+                                            <div class="poin">75</div>
+                                        </div>
                                     </div>
                                 </div>
+                                <p style="color: black; font-size: 18px;">Total Poin Anda : 75 Poin</p>
                             </div>
+                        <div class="image">
+                            <img src="assets/fdesign/16.png" alt="">
                         </div>
-                    </div>
-
-                </div>
-
-                <!-- If we need navigation buttons -->
-
-            </div>
-        </section>
-        <!--Main Slider End-->
-
-        <section class="feature-one">
-            <div class="container">
-                <div class="feature-one__inner">
-                    <ul class="list-unstyled feature-one__list">
-                        <li class="feature-one__single wow fadeInUp" data-wow-delay="100ms">
-                            <div class="feature-one__icon">
-                                <span class="icon-budget"></span>
-                            </div>
-                            <h3 class="feature-one__title "><a href="about.html">Pengelolaan</a></h3>
-                        </li>
-                        <li class="feature-one__single wow fadeInUp" data-wow-delay="200ms">
-                            <div class="feature-one__icon">
-                                <span class="icon-calendar"></span>
-                            </div>
-                            <h3 class="feature-one__title "><a href="about.html">Insentif Poin</a></h3>
-                        </li>
-                        <li class="feature-one__single wow fadeInUp" data-wow-delay="300ms">
-                            <div class="feature-one__icon">
-                                <span class="icon-garbage"></span>
-                            </div>
-                            <h3 class="feature-one__title "><a href="about.html">Komunitas</a></h3>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        
-
-        <!--Welcome Start-->
-        <section class="welcome" style="margin-top:100px;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6">
-                        <div class="welcome__right">
-                            <div class="section-title text-left">
-                                <span class="section-title__tagline"></span>
-                                <h2 class="section-title__title">Insentif Poin Untuk Praktik Ramah
-                                    Lingkungan</h2>
-                            </div>
-                            <p class="welcome__text-2">Konsep yang dapat membawa perubahan positif 
-                                dalam pengelolaan sampah dan pelestarian 
-                                lingkungan. Dengan memberikan poin kepada 
-                                individu yang berpartisipasi dalam praktik ramah 
-                                lingkungan. Ini adalah langkah yang inovatif dan 
-                                efektif untuk memotivasi individu dan komunitas 
-                                dalam upaya melindungi planet kita.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-xl-6">
-                        <div class="welcome__left">
-                            <div>
-                                <div class="welcome__img">
-                                    <img src="assets/images/resources/cash.jpeg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row" style="margin-top: 70px;">
-                    <div class="col-xl-6">
-                        <div class="welcome__left">
-                            <div>
-                                <div class="welcome__img">
-                                    <img src="assets/images/resources/cash.jpeg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6">
-                        <div class="welcome__right">
-                            <div class="section-title text-left">
-                                <span class="section-title__tagline"></span>
-                                <h2 class="section-title__title">Dukungan Perubahan Perilaku
-                                    Yang Positif</h2>
-                            </div>
-                            <p class="welcome__text-2">Gabungkan kesadaran lingkungan dengan insentif poin yang menggiurkan, dan saksikan bagaimana perubahan kecil dalam gaya hidup Anda, seperti mengurangi penggunaan plastik sekali pakai atau bersepeda ke tempat kerja, dapat menghasilkan dampak besar bagi lingkungan dan kesejahteraan Anda.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Welcome End-->
-
-        <!--Site Footer Start-->
-        <footer class="site-footer">
+                        <p style="color:black; font-size: 25px; font-family: 'Times New Roman', Times, serif; text-align: center;font-weight: bold;" >Pointmu lagi di proses ni!</p>
+                    </section>
+                        
+            
+            
+          <!--Site Footer Start-->
+          <footer class="site-footer">
             <div class="site-footer-bg" style="background-image: url(assets/images/backgrounds/site-footer-bg.jpg);">
             </div>
             <div class="site-footer__middle">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 wow fadeInUp animated" data-wow-delay="100ms" style="margin-right: auto; visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
-                            <div class="footer-widget__column footer-widget__about">
+                            <div class="footer-widget_column footer-widget_about">
                                 <a href="index.html"><img src="assets/images/resources/logo-1.png" alt="" style="margin-bottom:50px;"></a>
                                 <div class="footer-widget__about-text-box">
                                     <p class="footer-widget__about-text">"Transformasi Sampah Menjadi Kebaikan: Mari Bersama-sama Peduli Lingkungan dan Dapatkan Insentif!"</p>
@@ -246,7 +167,7 @@
                             </div>
                         </div>
                         <div class="col-md-3 wow fadeInUp animated" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
-                            <div class="footer-widget__column footer-widget__links clearfix">
+                            <div class="footer-widget_column footer-widget_links clearfix">
                                 <h3 class="footer-widget__title">Abouts</h3>
                                 <ul class="footer-widget__links-list list-unstyled clearfix">
                                     <li><a href="about.html">Careers</a></li>
@@ -257,7 +178,7 @@
                             </div>
                         </div>
                         <div class="col-md-3 wow fadeInUp animated" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
-                            <div class="footer-widget__column footer-widget__services clearfix">
+                            <div class="footer-widget_column footer-widget_services clearfix">
                                 <h3 class="footer-widget__title">Olah Sampah</h3>
                                 <ul class="footer-widget__services-list list-unstyled clearfix">
                                     <li><a href="dumpster-rental.html">Products</a></li>
